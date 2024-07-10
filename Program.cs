@@ -10,7 +10,7 @@ namespace MyApp
             string unimportantAnswer = Console.ReadLine();
             Console.WriteLine("Hmm, I suggest that you...");
             Random rnd = new Random();
-            int answer = rnd.Next(1, 2);
+            int answer = rnd.Next(1, 3);
             if (answer == 1)
             {
                 Console.WriteLine("don't do that.");
